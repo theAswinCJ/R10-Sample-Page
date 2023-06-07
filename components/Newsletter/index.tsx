@@ -13,7 +13,7 @@ const Newsletter = ({}: NewsletterProps) => {
     return (
         <div className={styles.row}>
             <div className={styles.col}>
-                <div className={cn("h2", styles.title)}>Download</div>
+                <div className={cn("h2", styles.title)}>Get Access</div>
                 <div className={styles.content}>
                 Supercharge your business with R10's state-of-the-art generative AI Assistant: an intelligent solution that understands and generates human-like responses, redefining customer interactions and support across all platforms.
                 </div>

@@ -1,4 +1,3 @@
-import Link from "next/link";
 import cn from "classnames";
 import styles from "./Hot.module.sass";
 import Icon from "@/components/Icon";

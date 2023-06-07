@@ -32,7 +32,6 @@ const Main = ({}: MainProps) => (
                 <div className={styles.content}>
                A state-of-the-art generative AI Assistant: an intelligent solution that understands and generates human-like responses, redefining customer interactions and support across all platforms.
                 </div>
-            
             </div>
         </div>
         <div className={styles.wrapper}>

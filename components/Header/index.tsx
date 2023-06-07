@@ -14,15 +14,22 @@ import Menu from "./Menu";
 
 import { resultSearch } from "@/mocks/resultSearch";
 
-const menu = [
+const menu = [{
+    title: "About",
+    url: "/",
+},{
+    title: "Features",
+    url: "/",
+},
     {
-        title: "Discover",
-        url: "/discover",
+        title: "Impacts",
+        url: "/",
     },
     {
-        title: "Feed",
-        url: "/feed",
-    },
+        title: "Blog",
+        url: "/",
+    }
+    
 ];
 
 type HeaderProps = {
@@ -91,7 +98,7 @@ const Header = ({ className, noRegistration, light, empty }: HeaderProps) => {
                                 className={styles.discover}
                                 light={visibleProfile || light}
                             /> */}
-                            {/* <div className={styles.navigation}>
+                            <div className={styles.navigation}>
                                 {menu.map((link, index) => (
                                     <Link href={link.url} key={index}>
                                         <a className={styles.link}>
@@ -99,7 +106,7 @@ const Header = ({ className, noRegistration, light, empty }: HeaderProps) => {
                                         </a>
                                     </Link>
                                 ))}
-                            </div> */}
+                            </div>
                             {/* <Link href="/create">
                                 <a
                                     className={cn(

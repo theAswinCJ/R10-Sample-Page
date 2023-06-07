@@ -1,10 +1,7 @@
-import Link from "next/link";
 import cn from "classnames";
 import styles from "./Item.module.sass";
 import styles2 from "../Main.module.sass";
 import Image from "@/components/Image";
-import Icon from "@/components/Icon";
-import Details from "../Details";
 
 type MainProps = {
     item: any;
