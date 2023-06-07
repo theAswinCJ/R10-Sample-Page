@@ -10,7 +10,7 @@ const Dream = ({}: DreamProps) => (
             <div className="wrap-layer h-screen">
 				<div className="text-layer">
                     <div className="text-group">
-                        <div className={cn("h1", styles.title,"title")} style={{color:"#202025"}}>Meet the Future of Generative AI Assistant</div>
+                        <div className={cn("h1", styles.title,"title")} style={{color:"#202025"}}>Introducing Game Changing Generative AI Assistant for Businesses</div>
                         {/* <div className={styles.line}>
                             <Link href="/">
                             <a className={cn("button-black", styles.button)} style={{margin:"0px"}}>

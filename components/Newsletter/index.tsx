@@ -15,31 +15,19 @@ const Newsletter = ({}: NewsletterProps) => {
             <div className={styles.col}>
                 <div className={cn("h2", styles.title)}>Download</div>
                 <div className={styles.content}>
-                    In web3, artists are taking back ownership and control over
-                    their creativity. All collections on Crypter are
-                    creator-owned smart contracts that will stand the test of
-                    time.
+                Supercharge your business with R10's state-of-the-art generative AI Assistant: an intelligent solution that understands and generates human-like responses, redefining customer interactions and support across all platforms.
                 </div>
                 <div className={styles.btns}>
-                    <a
-                        className={cn("button-large", styles.button)}
-                        href="https://ui8.net/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <span>apple store</span>
-                        <Icon name="apple" />
-                    </a>
                     <a
                         className={cn(
                             "button-white button-large",
                             styles.button
                         )}
-                        href="https://ui8.net/"
+                        href="/"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <span>google play</span>
+                        <span>Google Marketplace</span>
                         <Icon name="google-play" />
                     </a>
                 </div>
@@ -47,7 +35,7 @@ const Newsletter = ({}: NewsletterProps) => {
             <div className={styles.col}>
                 <div className={cn("h2", styles.title)}>Newsletter</div>
                 <div className={styles.info}>
-                    Get the latest Crypter updates
+                    Get the latest R10 updates
                 </div>
                 <form
                     className={styles.form}

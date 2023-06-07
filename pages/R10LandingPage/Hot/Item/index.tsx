@@ -1,6 +1,7 @@
 import Link from "next/link";
 import styles from "./Item.module.sass";
 import Image from "@/components/Image";
+import styles2 from "../../Main/Main.module.sass";
 
 type ItemProps = {
     item: any;
@@ -21,9 +22,9 @@ const Item = ({ item, number }: ItemProps) => (
                     alt="Avatar"
                 />
             </div>
-            <div className={styles.login}>@{item.login}</div>
-            <div className={styles.total}>
-                Total sale <span>{item.total}</span>
+            <div className={styles.login}>{item.login}</div>
+            <div className={styles2.content}>
+                {item.description}
             </div>
         </a>
     </Link>

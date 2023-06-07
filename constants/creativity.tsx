@@ -3,62 +3,38 @@ export const creativity = [
         content: (
             <>
                 <h2>
-                    Your Collection, <br></br>your way.
+                    Impacts of <br></br>integrating R10
                 </h2>
                 <p>
-                    In web3, artists are taking back ownership and control over
-                    their creativity. All collections on Crypter are
-                    creator-owned smart contracts that will stand the test of
-                    time.
+                Spark business transformation with R10's AI Assistant. Scale your business with ease and impact. Experience the implementation benefits of R10.
                 </p>
                 <ul>
-                    <li>
-                        You’ll earn a 10% royalty for all secondary market
-                        sales.
-                    </li>
-                    <li>Creativity is valuable on Crypter</li>
+                    <li>Enhance Customer Support</li>
+                    <li>Accelerate Responses</li>
+                    <li>Boost Customer Satisfaction</li>
+                    <li>Automate tasks</li>
+                    <li>Optimize resources</li>
+                    <li>Maximize cost savings</li>
                 </ul>
             </>
         ),
         video: "/videos/video-1.mp4",
-        url: "/blog/detail",
+        image:"/images/illustration6.png",
+        url: "/",
     },
     {
         content: (
             <>
                 <h2>
-                    Lowest <br></br>mint fees
+                    Experience it <br></br>in action first
                 </h2>
                 <p>
-                    Minting an NFT is like adding your signature to a painting.
-                    Make your mark in web3 with works that are emblematic of
-                    your creative practice.
-                </p>
-                <p>
-                    Plus, you’ll earn a 10% royalty for all secondary market
-                    sales. Forever.
+                Embark on an immersive journey with R10's extraordinary generative AI Assistant. Immerse yourself in a customized demo that unveils its unparalleled capabilities. Engage with its flawless natural language understanding and immerse yourself in its intuitive user experience. Experience the pinnacle of sophistication and redefine your customer interactions with the transformative power of R10.
                 </p>
             </>
         ),
         video: "/videos/video-2.mp4",
-        url: "/blog/detail",
-    },
-    {
-        content: (
-            <>
-                <h2>Create together, earn together.</h2>
-                <p>
-                    Add a Split to your NFT to seamlessly pay creative
-                    collaborators—photographers, producers, choreographers,
-                    dancers, poets—and so on.
-                </p>
-                <p>
-                    You can also use Splits to donate directly to the causes you
-                    care about most. That’s the web3 way.
-                </p>
-            </>
-        ),
-        video: "/videos/video-3.mp4",
-        url: "/blog/detail",
-    },
+        image:"/images/illustration7.png",
+        url: "/",
+    }
 ];

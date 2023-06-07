@@ -1,35 +1,31 @@
 export const footerNavigation = [
     {
-        title: "CRYPTER.",
+        title: "Home.",
         menu: [
             {
-                title: "Discover",
-                url: "/discover",
+                title: "About",
+                url: "/",
             },
             {
-                title: "Create",
-                url: "/create",
+                title: "Features",
+                url: "/",
             },
             {
-                title: "How it work",
-                url: "/blog/detail",
+                title: "Impacts",
+                url: "/",
             },
         ],
     },
     {
-        title: "INFO",
+        title: "Blog",
         menu: [
             {
+                title: "Read Latest Article",
+                url: "/",
+            },
+            {
                 title: "Feed",
-                url: "/feed",
-            },
-            {
-                title: "Help center",
-                url: "/help-center",
-            },
-            {
-                title: "Blog",
-                url: "/blog",
+                url: "/",
             },
         ],
     },
@@ -40,19 +36,19 @@ export const footerNavigation = [
                 title: "Instagram",
                 icon: "instagram",
                 external: true,
-                url: "https://www.instagram.com/ui8net/",
+                url: "https://www.instagram.com/",
             },
             {
-                title: "Twitter",
-                icon: "twitter",
+                title: "Linkedin",
+                icon: "linkedin",
                 external: true,
-                url: "https://twitter.com/ui8",
+                url: "https://twitter.com/",
             },
             {
                 title: "Facebook",
                 icon: "facebook",
                 external: true,
-                url: "https://www.facebook.com/ui8.net/",
+                url: "https://www.facebook.com/",
             },
         ],
     },

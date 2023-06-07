@@ -14,19 +14,16 @@ const Hot = ({}: HotProps) => (
             <div className={styles.details}>
                 <div className={styles.line}>
                     <div className={cn("h1", styles.title)}>
-                        Hot NFT artists of the month.
+                        Features of R10
                     </div>
-                    <Link href="/discover/ranking">
+                    {/* <Link href="/discover/ranking"> */}
                         <a className={styles.link}>
                             <Icon name="arrow-right" />
                         </a>
-                    </Link>
+                    {/* </Link> */}
                 </div>
                 <div className={styles.content}>
-                    We are laying the groundwork for web3 — the next generation
-                    of the internet full of limitless possibilities. Join the
-                    millions of creators, collectors, and curators who are on
-                    this journey with you.
+                Elevate your business with R10's game-changing generative AI Assistant. Unlock unrivalled efficiency, unparalleled customer satisfaction, and seamless automation. Experience the future of customer support today.
                 </div>
             </div>
         </div>
@@ -42,11 +39,11 @@ const Hot = ({}: HotProps) => (
                 </clipPath>
             </svg>
             <div className={styles.btns}>
-                <Link href="/discover/ranking">
+                {/* <Link href="/discover/ranking"> */}
                     <a className={cn("button-wide", styles.button)}>
                         EXPLORE MORE
                     </a>
-                </Link>
+                {/* </Link> */}
             </div>
         </div>
     </div>
