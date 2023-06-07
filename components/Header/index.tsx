@@ -118,7 +118,7 @@ const Header = ({ className, noRegistration, light, empty }: HeaderProps) => {
                                     styles.button,
                                     styles.connect
                                 )}
-                                onClick={() => setConnect(true)}
+                                // onClick={() => setConnect(true)}
                             >
                                Get Access
                             </button>
